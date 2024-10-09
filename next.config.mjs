@@ -2,9 +2,9 @@
 const nextConfig = {
     reactStrictMode: true,
     experimental: {
-      appDir: true,  // Isso habilita o uso da pasta 'app' no Next.js 13+
+      appDir: true,  // Habilitar a pasta 'app' no Next.js 13+
     },
   };
   
-  module.exports = nextConfig;
+  export default nextConfig;
   
