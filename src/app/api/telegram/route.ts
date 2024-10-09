@@ -27,7 +27,9 @@ export async function POST(req: Request) {
     const chatId = message.chat.id;
 
     // Verificar se o ID do grupo está correto
-    if (chatId === -1001234567890) {  // Substitua pelo ID correto do grupo
+    if (chatId === -1002344154333    ) {  // Substitua pelo ID correto do grupo
+      console.log("Mensagem recebida:", text);
+
       const { db } = await connectToDatabase(process.env.MONGODB_URI!);
 
       // Salvar a mensagem no MongoDB
